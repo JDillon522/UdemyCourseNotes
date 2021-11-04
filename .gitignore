@@ -1,9 +1,11 @@
+dist/*
+
 # Ignore all
-*
+# *
 
 # Unignore all with extensions
-!*.*
-!.vscode
+# !*.*
+# !.vscode
 
 # Prerequisites
 *.d

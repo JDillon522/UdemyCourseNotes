@@ -4,7 +4,6 @@ int main()
 {
     unsigned int a = 60; //  0011 1100
     unsigned int b = 13; //  0000 1101
-    int result = 0;
 
     // If BOTH bits are 1, then it stays 1. Otherwise its 0
     int and = a & b; // 0000 1100 = 12
