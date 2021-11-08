@@ -15,7 +15,7 @@ int main()
         // Iterate through the current list of primes
         // If it can be divisible by a previous prime then it is not a prime itself
         // ie Prime Factorization
-        for (int j = 2; j < i && j < primeIndex; j++)
+        for (int j = 2; j < primeIndex; j++)
         {
             if (i % primes[j] == 0) {
                 isPrime = false;
