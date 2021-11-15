@@ -26,5 +26,24 @@
 #include <ctype.h> // character functions
 /**
  * tolower - returns the lowercase equivalent of char
- * toupper - 
+ * toupper - duh
 */
+#include <math.h>
+#include <stdlib.h> // useful utility functions
+/**
+ * abs - absolute val
+ * exit - dump out of the program from any function. 
+ * abort - same as exit??
+ * getenv - read env vars
+ * qsort - sort i think
+ * rand - random int. wooo
+ * srand - seed the random number
+ * system - run any system command
+ * assert - supported by the assert.h header
+ *          useful for double checking your assumptions in prd
+*/
+#include <time.h> // self explainatory 
+#include <errno.h> // macros for reporting of errs
+#include <locale.h> // for formatting currency 
+#include <signal.h> // ??
+#include <stdarg.h> // ??
