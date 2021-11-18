@@ -9,7 +9,8 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${workspaceFolder}/dist/${fileBasenameNoExtension}"
+				"${workspaceFolder}/dist/${fileBasenameNoExtension}",
+				"-lm"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
