@@ -8,8 +8,7 @@
 			"args": [
 				"-g",
 				"${file}",
-				"-o",
-				"${workspaceFolder}/dist/${fileBasenameNoExtension}",
+				"-o", "${workspaceFolder}/dist/${fileBasenameNoExtension}",
 				"-lm"
 			],
 			"options": {
