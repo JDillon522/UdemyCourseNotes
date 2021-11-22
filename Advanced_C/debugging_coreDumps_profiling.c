@@ -64,5 +64,9 @@
  * valgrind <opts> ./<exe>
  * --leak-check=yes
  * 
+ * Static Analysis
+ * Doesnt not require the app to run.
+ * Ie linting, looks at the code
+ * 
  * 
 */
