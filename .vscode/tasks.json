@@ -9,7 +9,7 @@
 				"-g",
 				"${file}",
 				"-o", "${workspaceFolder}/dist/${fileBasenameNoExtension}",
-				"-lm"
+				"-lm", "-lpthread"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
